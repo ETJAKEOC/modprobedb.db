@@ -27,17 +27,17 @@ lsmod | awk 'NR>1 {print $1}' | sort -u > ~/Desktop/$(hostname)-TKT-modules-list
 
 Package manager based:
 
-sudo 'your-package-manager install' modprobed-db
+`sudo <your-package-manager install> modprobed-db`
 
 ### Step 2: Setup and Enable the Logging Job
 
 Start logging every module that gets used on boot or when you load something manually:
 
-modprobed-db init
+`modprobed-db init`
 
 Enable the systemd service to run on every boot:
 
-sudo systemctl enable --now modprobed-db.service
+`sudo systemctl enable --now modprobed-db.service`
 
 Let it run for a few days or just during your regular use—boot into different environments, use hardware, peripherals, Wi-Fi, audio, USB, etc. The goal is to build a rich database of your system's actual module usage.
 
@@ -45,6 +45,6 @@ Let it run for a few days or just during your regular use—boot into different 
 
 Once you've built up some history:
 
-modprobed-db dump > ~/Desktop/$(hostname)-TKT-modules-list.txt
+`modprobed-db dump > ~/Desktop/$(hostname)-TKT-modules-list.txt`
 
 Then send me the my-modules.txt file via a pull request. Add system details if you can (laptop/desktop, CPU/GPU, distro)—that context helps!
