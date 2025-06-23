@@ -1,5 +1,5 @@
 ### TꓘT modprobed.db repository
-This is where I do my `modprobed.db` work for my TKT kernel build system.
+This is where I do my `modprobed.db` work for my [TꓘT](https://github.com/ETJAKEOC/TKT) kernel build system.
 
 My goal is is a very simple project;
 
