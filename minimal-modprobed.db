@@ -62,6 +62,7 @@ binfmt_misc
 blake2b_generic
 bluetooth
 bnep
+bochs
 bpf
 bpf_preload
 brcmfmac
@@ -181,6 +182,7 @@ exfat
 ext2
 ext4
 f2fs
+failover
 fan
 fat
 fb_sys_fops
@@ -398,6 +400,7 @@ nbd
 nct6683
 nct6775
 nct6775_core
+net_failover
 netfs
 nf_conntrack
 nf_conntrack_broadcast
@@ -497,6 +500,7 @@ psmouse
 psnap
 ptp
 qcserial
+qemu_fw_cfg
 qrtr
 r8152
 r8153_ecm
