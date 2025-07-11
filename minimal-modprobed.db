@@ -448,6 +448,7 @@ nft_fib
 nft_fib_inet
 nft_fib_ipv4
 nft_fib_ipv6
+nft_limit
 nft_masq
 nft_nat
 nf_tproxy_ipv4
@@ -465,6 +466,7 @@ nls_iso8859_1
 nls_utf8
 nouveau
 ntfs3
+ntsync
 nvidia
 nvidia_drm
 nvidia_modeset
@@ -474,6 +476,7 @@ nvme
 nvme_auth
 nvme_common
 nvme_core
+nvme_keyring
 nvmem_rave_sp_eeprom
 nvram
 of_mdio
@@ -737,6 +740,7 @@ usbcore
 usbhid
 usbip_core
 usbip_host
+usblp
 usbmon
 usbnet
 usb_storage
