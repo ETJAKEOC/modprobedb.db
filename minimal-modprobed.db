@@ -1,4 +1,3 @@
-
 8021q
 8250_dw
 842
@@ -42,6 +41,7 @@ appletalk
 asn1_encoder
 asus_atk0110
 asus_nb_wmi
+asus_wireless
 asus_wmi
 at24
 ata_generic
@@ -162,6 +162,7 @@ drm_ttm_helper
 drm_vram_helper
 dummy
 dvb_core
+dw_dmac
 e1000
 e1000e
 ebtable_filter
@@ -275,6 +276,7 @@ intel_agp
 intel_cstate
 intel_gtt
 intel_hid
+intel_int0002_vgpio
 intel_ish_ipc
 intel_ishtp
 intel_ishtp_hid
@@ -294,6 +296,7 @@ intel_uncore_frequency_common
 intel_vpu
 intel_vsec
 intel_wmi_thunderbolt
+intel_xhci_usb_role_switch
 iommufd
 ip6table_filter
 ip6table_mangle
@@ -381,6 +384,7 @@ mei_gsc
 mei_hdcp
 mei_me
 mei_pxp
+mei_txe
 mii
 minix
 mmc_block
@@ -510,6 +514,8 @@ processor_thermal_wt_req
 psmouse
 psnap
 ptp
+pwm_lpss
+pwm_lpss_platform
 qcserial
 qemu_fw_cfg
 qrtr
@@ -564,6 +570,7 @@ scsi_transport_fc
 scsi_transport_sas
 sctp
 sdhci
+sdhci_acpi
 sdhci-pci
 sdhci_pci
 sd_mod
@@ -670,6 +677,7 @@ sp5100_tco
 sparse_keymap
 spi_intel
 spi_intel_pci
+spi_intel_platform
 spi_nor
 squashfs
 sr_mod
